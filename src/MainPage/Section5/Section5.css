@@ -1,0 +1,61 @@
+.section-five {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .five-all {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        .five-left {
+            display: flex;
+            flex-direction: column;
+            row-gap: 50px;
+            justify-content: center;
+            ul {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+
+                li {
+                    list-style: none;
+                    display: flex;
+                    width: auto;
+                    column-gap: 20px;
+                    align-items: center;
+                    #nya {
+                        font-size: 32px;
+                        font-weight: 500;
+                        color: white;
+                    }
+                    p{
+                        font-size: 32px;
+                    }
+                }
+            }
+            p:nth-child(2){
+                font-size: 20px;
+                color: #D9D9D9;
+                width: 60%;
+            }
+            p:nth-child(1){
+            font-size: 80px;
+            color: white;
+            font-weight: 600;
+            span {
+                background: #35C66B;
+                background: linear-gradient(90deg,rgba(53, 198, 107, 1) 0%, rgba(35, 114, 73, 1) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            }
+        }
+    }
+}
+.section-five-all {
+    background-image: url('../../../public/Group\ 19.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 600px 50px;
+    padding-bottom: 3rem;
+}

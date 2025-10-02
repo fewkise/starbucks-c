@@ -1,0 +1,12 @@
+.section-three {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .three-all {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}

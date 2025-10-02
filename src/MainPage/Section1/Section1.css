@@ -1,0 +1,36 @@
+.sec-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .cards-container {
+        display: flex;
+        align-items: center;
+        width: auto;
+        column-gap: 100px;
+        background-color: #FBFBFB;
+        border-radius: 30px;
+        padding: 50px;
+        .card {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 10px;
+            text-align: center;
+            #nv{
+                font-size: 32px;
+                font-weight: 600;
+            }
+            p {
+                color: #121517;
+                font-size: 20px;
+                width: 60%;
+            }
+        }
+    }
+}
+.section-first {
+    background-image: url('../../../public/Group\ 17.png');
+    background-repeat: no-repeat;
+    background-position: 500px 400px;
+    background-size: 50%;
+}
