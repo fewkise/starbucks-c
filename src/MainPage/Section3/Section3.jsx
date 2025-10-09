@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import './Section3.css'
 import forcardimg from '../../../public/Group 1 (34).png'
-
+import arrow_btn from '../../../public/Arrow 1.png'
 const Section3 = () => {
   const swiperRef = useRef(null)
 
@@ -47,7 +47,7 @@ const Section3 = () => {
               onClick={() => swiperRef.current?.slideNext()}
               className='swiper-button-next'
           >
-            кнопка вперед
+            <div><img src={arrow_btn} alt="" /></div>
           </button>
         </div>
       </div>
