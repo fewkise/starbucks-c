@@ -108,3 +108,6 @@
 .slider-container {
     width: 90vw;
 }
+.forBtnBuy {
+    cursor: pointer;
+}
