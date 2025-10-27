@@ -20,6 +20,7 @@ const MainPage = () => {
       <Section4/>
       <div>
       <Section5/>
+
       <Footer/>
       </div>
       
